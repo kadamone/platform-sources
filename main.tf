@@ -1,5 +1,5 @@
 module "nucleus" {
-  source = "github.com:kadamone/k8s-first-test-nucleus.git"
+  source = "github.com/kadamone/k8s-first-test-nucleus.git"
   #source = "../nucleus-sources"
 
   google_project_id = var.google_project_id
